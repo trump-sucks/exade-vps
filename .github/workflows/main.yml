@@ -10,7 +10,7 @@ jobs:
 
     
     steps:
-      - name: Downloading & Installing Essentials
+      - name: Setting Up VPS
         run: |
           Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/ugm8ks4638bour5oa67o6/downloads.bat?rlkey=j4silzru794uqcsxkqv4c13jr&dl=1" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
